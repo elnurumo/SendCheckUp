@@ -1,0 +1,60 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .locations {
+        display: flex;
+        flex-direction: column;
+        padding: 3.7rem 3rem;
+        list-style-type: none;
+        gap: 2.5rem;
+    }
+
+    .sidebar-footer {
+        padding: 4.1rem;
+        border-top: 1px solid #FFFFFF1A;
+    }
+}
+
+.location {
+    display: flex;
+    gap: 1.2rem;
+
+    
+    .deactive {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        color: $clr-numbers-color;
+        width: 24px;
+        height: 24px;
+        background-color: $clr-deactiveLocation-backgroundColor;
+        cursor: not-allowed;
+    }
+
+    .active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        color: $clr-numbers-color;
+        width: 24px;
+        height: 24px;
+        background-color: $clr-activeLocation-color;
+        cursor: default;
+    }
+
+    .location-name-active {
+        color: $clr-activeLocation-color;
+        font-size: 14px;
+        cursor: default;
+    }
+
+    .location-name {
+        color: $clr-deactiveName-color;
+        font-size: 14px;
+        cursor: not-allowed;
+    } 
+}

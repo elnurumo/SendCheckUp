@@ -1,0 +1,16 @@
+.doneOval {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: $clr-numbers-color;
+    width: 24px;
+    height: 24px;
+    background-color: $clr-doneOval-color;
+}
+
+.doneName {
+    color: #FFF;
+    font-size: 14px;
+    cursor: default;
+}

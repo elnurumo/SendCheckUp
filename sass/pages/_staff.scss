@@ -1,0 +1,41 @@
+.main-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    height: 100%;
+    padding: 1rem 2rem;
+    background-color: #F5F7FA;
+
+    .doctor {
+        display: flex;
+        justify-content: flex-start;
+        background-color: #FFFFFF;
+        width: 100%;
+        cursor: pointer;
+    }
+}
+
+.profile {
+    padding: 2.2rem;
+    
+    .profile-img {
+        border-radius: 50px;
+    }
+}
+
+.fullname-and-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    .fullname {
+        color: $clr-name-color;
+    }
+
+    .email {
+        color: $clr-email-color;
+        font-weight: 400;
+    }
+}

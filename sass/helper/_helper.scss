@@ -1,0 +1,38 @@
+html {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.selected {
+    border: 2px solid $clr-activeLocation-color;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.selected-date {
+    background-color: #6C70DC;
+    display: flex;
+    width: 50px;
+    padding: 11px 0px 6px 0px;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: default;
+}
+
+.selected-time {
+    background-color: #53D56C;
+    display: flex;
+    height: 42px;
+    padding: 1rem 2.2rem 1rem 2.1rem;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin: 1.2rem 1rem;
+    cursor: pointer;            
+}

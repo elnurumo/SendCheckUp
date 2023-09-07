@@ -1,0 +1,19 @@
+.page {
+    display: flex;
+    justify-content: center;
+    width: 1080px;
+    height: 560px;  
+
+    .sidebar {
+        width: 220px;
+        background-color: $clr-sidebar-backgroundColor;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 840px;
+        background-color: $clr-header-backgroundColor;
+    }
+}

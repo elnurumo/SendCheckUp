@@ -1,0 +1,86 @@
+.form-person-send {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .label-input-area {
+        display: flex;
+        flex-direction: column;
+        gap: 0.9rem;
+    }
+}
+
+.form-label {
+    color: #292D32;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;     
+
+    .important-label {
+        color: #EF264D;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.form-input {
+    width: 335px;
+    padding: 1.6rem;
+    font-size: 1.6rem;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #E3EAF3;
+    background-color: #FFF;
+}
+
+.note-area {
+    display: flex;
+    flex-direction: column;
+
+    .note-name {
+        color: #292D32;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .note {
+        width: 690px;
+        height: 130px;
+        padding: 2rem;
+        margin-top: 0.9rem;
+        border-radius: 2px;
+        border: 1px solid #E3EAF3;
+        background: #FFF;
+        overflow-y: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}
+
+.service {
+    display: flex;
+    width: 233px;
+    // flex-direction: column;  
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 400;
+
+    .service-name {
+        color: #6C70DC;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

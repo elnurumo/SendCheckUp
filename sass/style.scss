@@ -1,0 +1,16 @@
+@import "./layout/variables";
+@import "./reset";
+@import "./helper/helper";
+@import "./components/background";
+@import "./components/header";
+@import "./components/page";
+@import "./components/footer";
+@import "./components/sidebar";
+@import "./components/doneLoc";
+@import "./components/modal";
+
+// Pages
+@import "./pages/staff";
+@import "./pages/service";
+@import "./pages/dateTime";
+@import "./pages/details";

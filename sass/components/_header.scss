@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid $clr-mainBorder-color;
+
+    .name-location {
+        color: $clr-name-color;
+        font-size: 18px;
+        font-weight: 5  00;
+    }
+}

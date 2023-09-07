@@ -1,0 +1,63 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    border-top: 1px solid $clr-mainBorder-color;
+
+    .back {
+        padding: 0.9rem 1.4rem;
+        border-radius: 2px;
+        border: 1px solid $clr-backBorder-color;
+        font-size: 1.2rem;
+        background-color: $clr-backButton-backgroundColor;
+        color: $clr-backButton-color;
+        cursor: pointer;
+    }
+
+    .next {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.9rem 1.4rem;
+        border-radius: 2px;
+        border: 0px;
+        font-size: 1.2rem;
+        background-color: $clr-nextButton-backgroundColor;
+        color: $clr-nextButton-color;
+        cursor: pointer;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .booking {
+        padding: 0.9rem 1.4rem;
+        border-radius: 2px;
+        border: 0px;
+        font-size: 1.2rem;
+        background-color: $clr-nextButton-backgroundColor;
+        color: $clr-nextButton-color;
+        cursor: pointer;
+    }
+
+    .error {
+        display: flex;
+        align-items: center;
+        padding: 0.9rem 1.4rem;
+        border-radius: 2px;
+        gap: 1rem;
+        background-color: $clr-error-backgroundColor;
+
+        .error-code {
+            color: #FFF;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+
+    .hide {
+        visibility: hidden!important;
+    }
+}

@@ -1,0 +1,46 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    width: 100%;
+    cursor: pointer;
+
+    .profile-service {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .price {
+        display: flex;
+        justify-self: flex-end;
+        align-items: center;
+        color: #4FBF65;
+        font-size: 26px;
+        font-weight: 500;
+        padding: 2rem;
+    }
+}
+
+.profile {
+    padding: 2.2rem;
+    
+    .profile-img {
+        border-radius: 50px;
+    }
+}
+
+.service-and-hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    .service {
+        color: $clr-name-color;
+    }
+
+    .hours {
+        color: $clr-email-color;
+        font-weight: 400;
+    }
+}
